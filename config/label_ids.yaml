@@ -1,0 +1,240 @@
+airplane:
+  id: 5
+  index: 4
+apple:
+  id: 53
+  index: 47
+backpack:
+  id: 27
+  index: 24
+banana:
+  id: 52
+  index: 46
+baseball bat:
+  id: 39
+  index: 34
+baseball glove:
+  id: 40
+  index: 35
+bear:
+  id: 23
+  index: 21
+bed:
+  id: 65
+  index: 59
+bench:
+  id: 15
+  index: 13
+bicycle:
+  id: 2
+  index: 1
+bird:
+  id: 16
+  index: 14
+boat:
+  id: 9
+  index: 8
+book:
+  id: 84
+  index: 73
+bottle:
+  id: 44
+  index: 39
+bowl:
+  id: 51
+  index: 45
+broccoli:
+  id: 56
+  index: 50
+bus:
+  id: 6
+  index: 5
+cake:
+  id: 61
+  index: 55
+car:
+  id: 3
+  index: 2
+carrot:
+  id: 57
+  index: 51
+cat:
+  id: 17
+  index: 15
+cell phone:
+  id: 77
+  index: 67
+chair:
+  id: 62
+  index: 56
+clock:
+  id: 85
+  index: 74
+couch:
+  id: 63
+  index: 57
+cow:
+  id: 21
+  index: 19
+cup:
+  id: 47
+  index: 41
+dining table:
+  id: 67
+  index: 60
+dog:
+  id: 18
+  index: 16
+donut:
+  id: 60
+  index: 54
+elephant:
+  id: 22
+  index: 20
+fire hydrant:
+  id: 11
+  index: 10
+fork:
+  id: 48
+  index: 42
+frisbee:
+  id: 34
+  index: 29
+giraffe:
+  id: 25
+  index: 23
+hair drier:
+  id: 89
+  index: 78
+handbag:
+  id: 31
+  index: 26
+horse:
+  id: 19
+  index: 17
+hot dog:
+  id: 58
+  index: 52
+keyboard:
+  id: 76
+  index: 66
+kite:
+  id: 38
+  index: 33
+knife:
+  id: 49
+  index: 43
+laptop:
+  id: 73
+  index: 63
+microwave:
+  id: 78
+  index: 68
+motorcycle:
+  id: 4
+  index: 3
+mouse:
+  id: 74
+  index: 64
+orange:
+  id: 55
+  index: 49
+oven:
+  id: 79
+  index: 69
+parking meter:
+  id: 14
+  index: 12
+person:
+  id: 1
+  index: 0
+pizza:
+  id: 59
+  index: 53
+potted plant:
+  id: 64
+  index: 58
+refrigerator:
+  id: 82
+  index: 72
+remote:
+  id: 75
+  index: 65
+sandwich:
+  id: 54
+  index: 48
+scissors:
+  id: 87
+  index: 76
+sheep:
+  id: 20
+  index: 18
+sink:
+  id: 81
+  index: 71
+skateboard:
+  id: 41
+  index: 36
+skis:
+  id: 35
+  index: 30
+snowboard:
+  id: 36
+  index: 31
+spoon:
+  id: 50
+  index: 44
+sports ball:
+  id: 37
+  index: 32
+stop sign:
+  id: 13
+  index: 11
+suitcase:
+  id: 33
+  index: 28
+surfboard:
+  id: 42
+  index: 37
+teddy bear:
+  id: 88
+  index: 77
+tennis racket:
+  id: 43
+  index: 38
+tie:
+  id: 32
+  index: 27
+toaster:
+  id: 80
+  index: 70
+toilet:
+  id: 70
+  index: 61
+toothbrush:
+  id: 90
+  index: 79
+traffic light:
+  id: 10
+  index: 9
+train:
+  id: 7
+  index: 6
+truck:
+  id: 8
+  index: 7
+tv:
+  id: 72
+  index: 62
+umbrella:
+  id: 28
+  index: 25
+vase:
+  id: 86
+  index: 75
+wine glass:
+  id: 46
+  index: 40
+zebra:
+  id: 24
+  index: 22
