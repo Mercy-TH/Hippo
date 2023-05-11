@@ -3,10 +3,10 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from dataloader import DataSets
 from torchvision.utils import save_image
-from py.unetplusplus.net.unetplusplus import UnetPlusPLus
-from py.unetplusplus.config.config import *
+from net.unetplusplus import UnetPlusPLus
+from config.config import *
 from tqdm import tqdm
-from py.unetplusplus.scripts.loss import *
+from scripts.loss import *
 
 # torch.multiprocessing.set_start_method("spawn")
 mode_path = '../models/unetplusplus.pth'
@@ -23,8 +23,6 @@ if os.path.exists(mode_path):
 else:
     print("Not successful load weight.")
 optimizer = optim.Adam(model.parameters(), lr=lr)
-# loss_func = nn.CrossEntropyLoss()
-# loss_func = WceLoss()
 loss_func = nn.BCELoss()
 loss_func.to(device)
 
@@ -38,11 +36,6 @@ for e in range(1, epoch):
     for i, (img, mask) in enumerate(tqdm(dataloader)):
         if img is None and mask is None:
             continue
-        # counts = torch.bincount(mask.long().flatten(), minlength=3)
-        # w = (counts.sum() - counts) / counts.sum()
-        # loss_func = WceLoss(w).to(device)
-
-        # loss_func.weight = w
         loss_dic = {}
         img = img.to(device)
         mask = mask.to(device)

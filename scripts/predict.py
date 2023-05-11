@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
-from py.unetplusplus.net.unetplusplus import UnetPlusPLus
-from py.unetplusplus.config.config import *
-from py.unetplusplus.scripts.loss import *
+from net.unetplusplus import UnetPlusPLus
+from config.config import *
+from scripts.loss import *
 from torchvision import transforms
 
 mode_path = '/opt/projects/unetplusplus/py/unetplusplus.pth'

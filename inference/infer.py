@@ -5,7 +5,7 @@ import pycuda.driver as cuda
 import tensorrt as trt
 import numpy as np
 import torch
-from py.unetplusplus.config.config import *
+from config.config import *
 
 ONNX_SIM_MODEL_PATH = '../models/unetplusplus.onnx'
 TENSORRT_ENGINE_PATH_PY = '../models/unetplusplus_py.engine'

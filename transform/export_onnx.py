@@ -1,7 +1,7 @@
 import os
-from py.unetplusplus.net.unetplusplus import UnetPlusPLus
-from py.unetplusplus.config.config import *
-from py.unetplusplus.scripts.loss import *
+from net.unetplusplus import UnetPlusPLus
+from config.config import *
+from scripts.loss import *
 import onnx
 from onnxsim import simplify
 
